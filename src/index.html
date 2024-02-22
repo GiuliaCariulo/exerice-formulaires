@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>eikon parcel starter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form>
+      <div class="names">
+        <label>
+          <input type="text" name="firstname" placeholder="Prénom" />
+        </label>
+        <label>
+          <input type="text" name="lastname" placeholder="Nom" />
+        </label>
+      </div>
+      <div class="languages">
+        <label>
+          <input type="radio" name="language" value="french" />
+          Français
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="language" value="german" />
+          Allemand
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="language" value="italian" />
+          Italien
+        </label>
+      </div>
+      <div class="options-choice">
+        <label>
+          <input type="checkbox" name="options" value="newsletter" />
+          S'abonner à la newsletter
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" name="options" value="conditions" />
+          J'accepte les conditions générales
+        </label>
+      </div>
+      <div class="coutries">
+        <label for="country">
+          <select name="country">
+            <option value="ch">Suisse</option>
+            <option value="fr">France</option>
+            <option value="de">Allemagne</option>
+          </select>
+        </label>
+      </div>
+      <div class="comments">
+        <label>
+          Remarque
+          <textarea name="comment"></textarea>
+        </label>
+      </div>
+    </form>
+
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
